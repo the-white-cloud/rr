@@ -1,7 +1,17 @@
 <html>  
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url='https://m.youtube.com/watch?v=xvFZjo5PgG0?autoplay=1&mute=1'">
+    <script>
+      function whatdo() {
+        if (Math.random() < 0.5) {
+          return "0; url='https://m.youtube.com/watch?v=xvFZjo5PgG0?autoplay=1&mute=1'"
+        } else {
+          return "0; url='https://projects.jules.pet/election'"
+        }    
+      }
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url='https://m.youtube.com/watch?v=xvFZjo5PgG0?autoplay=1&mute=1'"></noscript>
+    <meta http-equiv="refresh" content=whatdo()>
     <title>Vote for Sam B</title>
     <meta name="description" content="Vote for Sam B">
   </head>
